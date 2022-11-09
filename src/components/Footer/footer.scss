@@ -1,0 +1,25 @@
+.footer {
+	margin: 50px auto 0 auto;
+	background: var(--primary-color);
+	color: white;
+	.text-white {
+		h1 {
+			color: white;
+			margin: 20px 0 10px 0;
+		}
+	}
+	.footer__quick-links li {
+		background: var(--primary-color);
+		color: #fff;
+		padding: 5px;
+	}
+}
+h4 {
+	color: white;
+	margin: 20px 0 10px 0;
+}
+.Copyright {
+	margin-bottom: 20px;
+	text-align: center;
+	margin-top: 40px;
+}

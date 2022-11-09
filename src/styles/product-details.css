@@ -1,0 +1,58 @@
+.product__details {
+	margin-top: 50px;
+}
+.product__details h2 {
+	font-size: 1.8rem;
+	margin-bottom: 30px;
+}
+.product__details .product__category {
+	margin-left: 30px;
+}
+.product__rating span i {
+	color: coral;
+}
+.product__rating p span {
+	color: coral;
+	font-weight: 500;
+}
+.product__price {
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+.active__tab {
+	font-weight: 700;
+}
+.rewiev__form {
+	margin-top: 50px;
+	width: 70%;
+	margin: auto;
+}
+.rewiev__form h1 {
+	margin-bottom: 30px;
+}
+.rewiev__form input,
+textarea:focus {
+	outline: none;
+}
+.rewiev__form input,
+textarea {
+	border-radius: 5px;
+	padding: 5px 20px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.rewiev__form span i {
+	color: coral;
+	cursor: pointer;
+}
+.rewiev__form .star_icons {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+.star_icons .active {
+	font-weight: 700;
+	background-color: antiquewhite;
+	padding: 5px;
+	border-radius: 50%;
+}

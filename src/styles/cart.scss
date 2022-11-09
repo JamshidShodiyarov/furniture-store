@@ -1,0 +1,41 @@
+.table {
+	color: var(--primary-color);
+	margin-top: 50px;
+}
+.table__head {
+	background: var(--primary-color);
+	color: #fff;
+}
+.table__body {
+	padding: auto;
+}
+.table__body img {
+	height: 50px;
+	width: 50px;
+}
+.body__description {
+	padding-top: 20px !important;
+	button {
+		cursor: pointer;
+		border: none;
+		background: none;
+	}
+}
+.icone {
+	cursor: pointer;
+}
+.total__quantity {
+	margin-top: 50px;
+}
+.total__quantity,
+.total__amount {
+	display: flex;
+	justify-content: space-between;
+}
+.button__links button {
+	display: block;
+	background-color: var(--primary-color);
+	a:hover {
+		color: #fff;
+	}
+}
